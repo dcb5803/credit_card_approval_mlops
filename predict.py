@@ -3,7 +3,6 @@ import pandas as pd
 
 model = mlflow.sklearn.load_model("models:/credit_model/1")
 
-# Example input
 sample = pd.DataFrame({
     "Age": [30],
     "Income": [55000],

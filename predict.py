@@ -10,4 +10,4 @@ sample = pd.DataFrame({
 })
 
 prediction = model.predict(sample)
-print("Approved" if prediction[0] == 1 else "Rejected")
+print("✅ Prediction:", "Approved" if prediction[0] == 1 else "Rejected")

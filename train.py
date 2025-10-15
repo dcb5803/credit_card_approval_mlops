@@ -26,4 +26,4 @@ with mlflow.start_run():
 
     mlflow.log_metric("accuracy", acc)
     mlflow.sklearn.log_model(model, "model")
-    print(f"Logged model with accuracy: {acc}")
+    print(f"Model trained and logged with accuracy: {acc}")
